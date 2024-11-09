@@ -1,0 +1,21 @@
+/* About.module.css */
+.aboutHeading {
+    font-size: 2.5rem; /* Equivalent to text-4xl */
+    color: #ff7f50; /* Coral color */
+  }
+  
+  .aboutHeadingSmall {
+    font-size: 3rem; /* Equivalent to md:text-5xl */
+  }
+  
+  .aboutText {
+    color: #4a4a4a; /* Equivalent to text-gray-600 */
+    padding-top: 1rem; /* Equivalent to pt-4 */
+    font-size: 1.125rem; /* Equivalent to text-lg */
+    line-height: 1.75rem; /* Equivalent to leading-relaxed */
+  }
+  
+  .aboutTextLarge {
+    font-size: 1.25rem; /* Equivalent to md:text-xl */
+  }
+  

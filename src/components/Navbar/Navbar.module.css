@@ -1,0 +1,16 @@
+/* Navbar.module.css */
+.navbar {
+  background-color: #ff7f50; /* Coral color */
+}
+
+.logo {
+  color: white;
+}
+
+.menuButton {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+/* You can add more custom styles for hover effects, etc., here */

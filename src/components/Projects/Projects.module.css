@@ -1,0 +1,22 @@
+/* Projects.module.css */
+
+/* Remove default underline from links */
+.noUnderline {
+    text-decoration: none;
+  }
+  
+  /* Custom grid container styles */
+  .gridContainer {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  }
+  
+  /* Custom heading styles if needed */
+  .heading {
+    font-size: 2rem;
+    font-weight: bold;
+  }
+  
+  /* Add any specific styling for your layout or elements here */
+  

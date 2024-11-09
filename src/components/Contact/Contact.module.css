@@ -1,0 +1,23 @@
+/* Contact.module.css */
+.heading {
+    color: #FF9966;
+  }
+  
+  .iconText {
+    color: #FF9966;
+  }
+  
+  .inputField {
+    height: 40px;
+    background-color: transparent;
+    border: 1px solid #FF9966;
+    outline: none;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  .inputField:focus {
+    border-color: #FF9966;
+    box-shadow: 0 0 5px #FF9966;
+  }
+  

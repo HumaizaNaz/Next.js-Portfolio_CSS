@@ -1,0 +1,52 @@
+/* Skills.module.css */
+.skills-container {
+    padding-top: 8rem; /* Equivalent to pt-32 */
+  }
+  
+  .skills-heading {
+    color: #FF9966;
+  }
+  
+  .skills-subheading {
+    font-weight: bold;
+    color: #FF9966;
+  }
+  
+  .skill-bar {
+    margin-bottom: 1.75rem; /* Equivalent to mb-7 */
+  }
+  
+  .skill-bar-path {
+    stroke-linecap: round;
+    fill-opacity: 0;
+  }
+  
+  .skill-bar-trail {
+    stroke-width: 1;
+    stroke: #D9D9D9;
+  }
+  
+  .skill-bar-fill {
+    stroke-linecap: round;
+    stroke-width: 1;
+    fill-opacity: 0;
+  }
+  
+  .skill-label {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #A6A6A6;
+  }
+  
+  .skill-percentage {
+    font-weight: 600;
+    padding-right: 1.25rem;
+    color: #A6A6A6;
+  }
+  
+  .skill-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #FF9966;
+  }
+  

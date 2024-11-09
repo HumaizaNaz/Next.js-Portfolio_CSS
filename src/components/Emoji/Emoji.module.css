@@ -1,0 +1,59 @@
+/* Emoji.module.css */
+.reviewContainer {
+    padding-top: 2rem; 
+    background-color:  #fff5f0; /* Dark mode background */
+  }
+  
+  .reviewTitle {
+    text-align: center;
+    font-size: 2rem;
+    font-weight: bold;
+    color: #ff7f50; /* Coral color */
+  }
+  
+  .reviewCard {
+    padding: 2rem;
+    border: 1px solid #e5e7eb; /* Light gray border */
+    border-radius: 1.5rem;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reviewCardDark {
+    background-color: #fefdfd;; /* Dark mode card background */
+    border-color: #3d4654; /* Dark border */
+    box-shadow: none;
+  }
+  
+  .userInfo {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .userAvatar {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+  }
+  
+  .userName {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #ff7f50; /* Coral */
+  }
+  
+  .userTitle {
+    font-size: 0.875rem;
+    color: #8f9090; /* Light gray */
+  }
+  
+  .reviewText {
+    margin-top: 2rem;
+    font-size: 1rem;
+    color: #3a4250; /* Dark gray */
+  }
+  
+  .reviewTextDark {
+    color: #e5e7eb; /* Light gray in dark mode */
+  }
+  

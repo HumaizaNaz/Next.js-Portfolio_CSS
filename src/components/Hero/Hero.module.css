@@ -1,0 +1,13 @@
+/* Custom CSS for Hero Component */
+.heroBackground {
+    background-size: 35%;
+    background-position: left 800px top 100px;
+  }
+  
+  .heroTitle {
+    color: #FF9966;
+  }
+  
+  .heroSubTitle {
+    color: #FFCC99;
+  }
