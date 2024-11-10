@@ -32,7 +32,7 @@ const Skills = () => {
         </div>
 
         <div data-aos="fade-right">
-          <h4 className={`text-3xl md:text-5xl ${styles["skills-title"]} font-bold mb-6`}>Skills</h4>
+          <h4 className={`text-3xl md:text-5xl text-[#FF9966] font-bold mb-6`}>Skills</h4>
 
           <div className={styles["skill-bar"]}>
             <div className="flex justify-between py-1">

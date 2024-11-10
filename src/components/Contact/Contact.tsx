@@ -15,16 +15,16 @@ const Contact = () => {
             Drop me a line, give me a call, or send me a message by submitting the form.
           </p>
           <div className={`flex gap-3 items-center ${styles.iconText}`} data-aos="fade-right">
-            <CiMail size={30} /> humaizaasghar@gmail.com
+            <CiMail  className='text-red-900 'size={30} /> humaizaasghar@gmail.com
           </div>
           <div className={`flex gap-3 items-center ${styles.iconText}`} data-aos="fade-right">
-            <FaWhatsapp size={30} /> (+92) 314-1234569
+            <FaWhatsapp  className='text-green-500 ' size={30} /> (+92) 314-1234569
           </div>
           <div className={`flex gap-3 items-center ${styles.iconText}`} data-aos="fade-right">
-            <FaGithub size={30} /> https://github.com/HumaizaNaz
+            <FaGithub   className='text-black 'size={30} /> https://github.com/HumaizaNaz
           </div>
           <div className={`flex gap-3 items-center ${styles.iconText}`} data-aos="fade-right">
-            <CiLinkedin size={30} /> https://www.linkedin.com/in/humaiza-naz/
+            <CiLinkedin   className='text-blue-700 'size={30} /> https://www.linkedin.com/in/humaiza-naz/
           </div>
         </div>
 

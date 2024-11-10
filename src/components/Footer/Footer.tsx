@@ -17,10 +17,10 @@ const Footer = () => {
               Welcome to my portfolio! I am a web developer with expertise in HTML, CSS, Tailwind CSS, and Next.js. I create responsive, dynamic, and accessible websites that provide seamless user experiences. Whether it is building a personal portfolio or a complex web application, my goal is always to deliver high-quality results with attention to detail.
             </p>
             <div className={styles['footer-icons']}>
-              <Link className={styles['footer-icon']} target="_blank" href="#">
+              <Link className={styles['footer-icon']} target="_blank" href="https://www.facebook.com/profile.php?id=61567726929622">
                 <FaFacebookF size={36} />
               </Link>
-              <Link className={styles['footer-icon']} target="_blank" href="/">
+              <Link className={styles['footer-icon']} target="_blank" href="https://www.linkedin.com/in/humaiza-naz/">
                 <FaLinkedinIn size={36} />
               </Link>
               <Link className={styles['footer-icon']} target="_blank" href="/">
@@ -29,7 +29,7 @@ const Footer = () => {
               <Link className={styles['footer-icon']} target="_blank" href="">
                 <FaTwitter size={36} />
               </Link>
-              <Link className={styles['footer-icon']} target="_blank" href="https://www.youtube.com/">
+              <Link className={styles['footer-icon']} target="_blank" href="https://www.youtube.com/@knowhowcoding">
                 <FaYoutube size={36} />
               </Link>
             </div>
@@ -37,7 +37,7 @@ const Footer = () => {
           <div className={styles['footer-col']}>
             <div className={styles['footer-contact']}>
               <div className={styles['footer-icon-circle']}>
-                <FaPhoneAlt size={24} />
+                <FaPhoneAlt className=' text-white' size={24} />
               </div>
               <div className={styles['footer-contact-info']}>
                 <Link href="tel:+911800123444" className={styles['footer-contact-number']}>
@@ -48,7 +48,7 @@ const Footer = () => {
             </div>
             <div className={styles['footer-contact']}>
               <div className={styles['footer-icon-circle']}>
-                <IoMdMail size={24} />
+                <IoMdMail className=' text-white'size={24} />
               </div>
               <div className={styles['footer-contact-info']}>
                 <Link href="mailto:help@lorem.com" className={styles['footer-contact-number']}>
@@ -59,7 +59,7 @@ const Footer = () => {
             </div>
             <div className={styles['footer-contact']}>
               <div className={styles['footer-icon-circle']}>
-                <FaEnvelope size={20} />
+                <FaEnvelope className=' text-white'size={20} />
               </div>
               <div className={styles['footer-contact-info']}>
                 <Link href="mailto:contact@lorem.com" className={styles['footer-contact-number']}>
